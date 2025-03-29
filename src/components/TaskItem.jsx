@@ -76,7 +76,7 @@ export const TaskItem = ({ task, taskStatus, editTask, deleteTask }) => {
           {isEditing ? (
             <TextField
               label="Task Name"
-              value={newText.trim() ?? task.text}
+              value={newText !== undefined ? newText : task.text}
               variant="outlined"
               onChange={(e) => setNewText(e.target.value)}
             />

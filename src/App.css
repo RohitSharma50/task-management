@@ -1,0 +1,29 @@
+#root {
+  width: 80%; /* Default width for small screens */
+  max-width: 480px; /* Prevents stretching too much */
+  margin: 0 auto; /* Centers the container */
+  padding: 1px;
+
+  text-align: center;
+}
+
+.card {
+  padding: 0em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+Button {
+  height: 2rem;
+}
+ul {
+  display: grid;
+  padding: 0;
+}
